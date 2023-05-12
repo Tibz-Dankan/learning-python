@@ -51,4 +51,10 @@ p1.age = 40
 # Delete Object Properties
 del p1.age
 
+# The pass Statement
+# class definitions cannot be empty, but if you for some reason 
+# have a class definition with no content, put in the pass statement to avoid getting an error.
+class Person:
+  pass
+
 
